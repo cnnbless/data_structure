@@ -1,0 +1,5 @@
+# ninja log v5
+7	513	7343831658566764	CMakeFiles/data_structures.dir/LIsts/DoubleLinkedList.cpp.obj	ca3d370d34265e6f
+3	610	7343832912078304	CMakeFiles/data_structures.dir/main.cpp.obj	daaf870115e1132a
+3	540	7343821881522005	CMakeFiles/data_structures.dir/node/DoubleNode.cpp.obj	427c1834355ba732
+611	717	7343832913063493	data_structures.exe	94d1f4888889fea0

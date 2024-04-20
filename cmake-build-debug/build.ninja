@@ -55,18 +55,6 @@ build CMakeFiles/data_structures.dir/main.cpp.obj: CXX_COMPILER__data_structures
   OBJECT_DIR = CMakeFiles\data_structures.dir
   OBJECT_FILE_DIR = CMakeFiles\data_structures.dir
 
-build CMakeFiles/data_structures.dir/LIsts/Queue.cpp.obj: CXX_COMPILER__data_structures_unscanned_Debug C$:/Users/Tony/CLionProjects/structures/data_structures/LIsts/Queue.cpp || cmake_object_order_depends_target_data_structures
-  DEP_FILE = CMakeFiles\data_structures.dir\LIsts\Queue.cpp.obj.d
-  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\data_structures.dir
-  OBJECT_FILE_DIR = CMakeFiles\data_structures.dir\LIsts
-
-build CMakeFiles/data_structures.dir/LIsts/Stack.cpp.obj: CXX_COMPILER__data_structures_unscanned_Debug C$:/Users/Tony/CLionProjects/structures/data_structures/LIsts/Stack.cpp || cmake_object_order_depends_target_data_structures
-  DEP_FILE = CMakeFiles\data_structures.dir\LIsts\Stack.cpp.obj.d
-  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\data_structures.dir
-  OBJECT_FILE_DIR = CMakeFiles\data_structures.dir\LIsts
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target data_structures
@@ -75,7 +63,7 @@ build CMakeFiles/data_structures.dir/LIsts/Stack.cpp.obj: CXX_COMPILER__data_str
 #############################################
 # Link the executable data_structures.exe
 
-build data_structures.exe: CXX_EXECUTABLE_LINKER__data_structures_Debug CMakeFiles/data_structures.dir/main.cpp.obj CMakeFiles/data_structures.dir/LIsts/Queue.cpp.obj CMakeFiles/data_structures.dir/LIsts/Stack.cpp.obj
+build data_structures.exe: CXX_EXECUTABLE_LINKER__data_structures_Debug CMakeFiles/data_structures.dir/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\data_structures.dir

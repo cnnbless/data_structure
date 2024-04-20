@@ -8,11 +8,7 @@ add_executable(data_structures main.cpp
         node/DoubleNode.h
         node/SingleNode.h
         LIsts/SingleLinkedList.h
-        LIsts/Queue.cpp
         LIsts/Queue.h
-        LIsts/Queue.h
-        LIsts/Queue.cpp
         node/QueueNode.h
-        LIsts/Stack.cpp
         LIsts/Stack.h
         node/StackNode.h)

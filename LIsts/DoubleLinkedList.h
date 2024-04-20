@@ -135,7 +135,7 @@ public:
             tail = tail->previous.lock();
             tail->next.reset();
         } else {
-            shared_ptr<double_node::Node<T>> current = head;
+            shared_ptr<Node<T>> current = head;
             for (int i = 0; i < index; i++) {
                 current = current->next;
             }
@@ -146,7 +146,7 @@ public:
     }
     friend ostream &operator<<(ostream &os, DoubleLinkedList &obj) {
         os << "List data: " << endl;
-        shared_ptr<double_node::Node<T>> current = obj.head;
+        shared_ptr<Node<T>> current = obj.head;
         while (current) {
             os << current->data << " ";
             current = current->next;

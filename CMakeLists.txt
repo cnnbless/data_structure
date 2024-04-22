@@ -11,4 +11,7 @@ add_executable(data_structures main.cpp
         LIsts/Queue.h
         node/QueueNode.h
         LIsts/Stack.h
-        node/StackNode.h)
+        node/StackNode.h
+        LIsts/InputRestrictedQueue.h
+        LIsts/ArrayQueue.h
+        LIsts/ArrayStack.h)

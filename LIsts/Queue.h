@@ -64,7 +64,7 @@ public:
     }
 
     friend ostream &operator<<(ostream &os, Queue<T> &obj) {
-        os << "Queue data: " << endl;
+        os  << endl;
         shared_ptr<QueueNode<T>> current = obj.head;
         while (current) {
             os << current->data << " ";
